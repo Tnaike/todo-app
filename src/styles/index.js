@@ -1,0 +1,81 @@
+const colors = {
+  blue: '#3C48FC',
+  orange: '#FF7F36',
+  green: '#00B361',
+  white: '#FFFFFF',
+  black: '#000000',
+  gray: '#5C6F7F',
+  yellow: '#FFC042',
+  red: '#F60002',
+  red1: '#B41807',
+  darkOrange: '#E02020',
+  darkBlue: '#030EAA',
+  indigo: '#CDD0FE',
+  slateGray: '#4E555B',
+  paleOrange: '##FFF1F0',
+  paleYellow: '#FFF7E6',
+  lightBlue: '#D1E4FF',
+  lightOrange: '#FFF2EB',
+  lightGreen: '#E2FEF0',
+  lightGray: '#F8F8F8',
+  lighterOrange: '#FAEEE7',
+  lighterGray: '#EDF2F7',
+  lighterBlue: '#EDF2F780',
+  boldDark: '#071827',
+  darkGray2: '#2E4457',
+  green1: '#05944F',
+
+  badge: {
+    success: {
+      text: '#05944F',
+      bg: '#E2FEF0',
+    },
+    warning: {
+      text: '#FFAD0A',
+      bg: '#FFF7E6',
+    },
+    primary: {
+      text: '#7D85FD',
+      bg: '#EBECFF',
+    },
+    secondary: {
+      text: '#8A9099',
+      bg: '#7D85FD',
+    },
+    danger: {
+      text: '#B81500',
+      bg: '#FFF1F0',
+    },
+    dark: {
+      text: '#FFFFFF',
+      bg: '#071827',
+    },
+    pendingBg: '#EBECFF',
+    warningBg: '#FFAD0A',
+    dangerBg: '#E02020',
+    successBg: '#00B361',
+  },
+  background: {
+    default: '#EEEEEE',
+    primary: '#282c34',
+    header: '#FFFFFF',
+    component: '#F3F3F7',
+    filterBar: '#EDF2F7',
+    overlay: '#00000066',
+  },
+  border: {
+    default: '#5C6F7F',
+    primary: '#E2E9F0',
+    gray: '#E8E9EB',
+    lightGray: '#A0B1C0',
+    blue: '#3C48FC',
+    red: '#E01A00',
+  },
+  input: {
+    paleGray: '#F2F5FA',
+    gray: '#E2E9F0',
+    black: '#000000',
+  },
+};
+
+export { colors };
