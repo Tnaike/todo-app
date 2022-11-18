@@ -6,7 +6,9 @@ import { colors } from '../styles/index';
 const StyledForm = styled.form`
   position: relative;
   display: flex;
-  width: 100%;
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
   padding: 20px 15px;
   align-items: center;
 `;
