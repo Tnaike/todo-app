@@ -17,7 +17,6 @@ const App: React.FC = () => {
     }
   };
 
-  // console.log(todo);
   console.log('***LIST TODO=>**', listTodo);
 
   return (
