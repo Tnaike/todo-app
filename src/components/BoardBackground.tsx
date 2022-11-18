@@ -6,8 +6,8 @@ const StyledBackground = styled.div`
   position: relative;
   display: flex;
   width: 90%;
-  //   max-width: 1000px;
   height: 100vh;
+  align-items: flex-start;
   background-color: ${colors.white};
   padding: 20px;
   border-radius: 16px;
