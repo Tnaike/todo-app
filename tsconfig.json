@@ -5,6 +5,9 @@
       "dom",
       "dom.iterable",
       "esnext"
+    ],    
+    "types": [
+      "@types/styled-components"
     ],
     "allowJs": true,
     "skipLibCheck": true,

@@ -22,7 +22,6 @@ const colors = {
   lighterGray: '#EDF2F7',
   lighterBlue: '#EDF2F780',
   boldDark: '#071827',
-  darkGray2: '#2E4457',
   green1: '#05944F',
 
   badge: {
