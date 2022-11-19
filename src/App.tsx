@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import './App.css';
-import BoardBackground from './components/BoardBackground';
+import BoardBackground from './container/BoardBackground';
 import InputField from './components/InputField';
 import { Todo } from './model';
+import TodoList from './components/TodoList';
 
 const App: React.FC = () => {
   const [todo, setTodo] = useState<string>('');
-  const [listTodo, setListTodo] = useState<Todo[]>([]);
+  const [listTodo, setListTodo] = useState<Todo[]>(() => {
+    const localData = localStorage.getItem('todoData');
+    return localData ? JSON.parse(localData) : [];
+  });
 
   const handleAdd = (e: React.FormEvent) => {
     e.preventDefault();
@@ -17,8 +21,6 @@ const App: React.FC = () => {
     }
   };
 
-  console.log('***LIST TODO=>**', listTodo);
-
   return (
     <div className='App'>
       <header className='App-header'>
@@ -27,6 +29,7 @@ const App: React.FC = () => {
       </header>
       <BoardBackground>
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
+        <TodoList listTodo={listTodo} setListTodo={setListTodo}/>
       </BoardBackground>
     </div>
   );
