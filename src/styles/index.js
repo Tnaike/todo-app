@@ -12,6 +12,7 @@ const colors = {
   darkBlue: '#030EAA',
   indigo: '#CDD0FE',
   slateGray: '#4E555B',
+  paleGray: '#F2F5FA',
   paleOrange: '##FFF1F0',
   paleYellow: '#FFF7E6',
   lightBlue: '#D1E4FF',
